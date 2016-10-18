@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <title>SqueezeAudioDIY by coenraadhuman</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <h1>SqueezeAudioDIY</h1>
+        <h2>These scripts install and manage Squeezelite on Debian based distros for easy use with your DIY audio projects.</h2>
+        <a href="https://github.com/coenraadhuman/SqueezeAudioDIY" class="button"><small>View project on</small> GitHub</a>
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <h1>
+<a id="squeezeaudiodiy-13-beta" class="anchor" href="#squeezeaudiodiy-13-beta" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>SqueezeAudioDIY 1.3 Beta</h1>
+
+<p>This is not a stable version, please use version 1.2.1 found in releases:
+<a href="https://github.com/coenraadhuman/SqueezeAudioDIY/releases/tag/1.2.1">https://github.com/coenraadhuman/SqueezeAudioDIY/releases/tag/1.2.1</a></p>
+
+<p>These are terminal based utilities to install and manage Squeezelite</p>
+
+<h2>
+<a id="requirements" class="anchor" href="#requirements" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Requirements:</h2>
+
+<ul>
+<li>Debian Jessie or higher</li>
+<li>Ubuntu 16.04 or higher</li>
+</ul>
+
+<h2>
+<a id="supported-architecture" class="anchor" href="#supported-architecture" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Supported Architecture:</h2>
+
+<ul>
+<li>i386</li>
+<li>x86_64</li>
+<li>ARM</li>
+</ul>
+
+<h2>
+<a id="to-install" class="anchor" href="#to-install" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>To Install:</h2>
+
+<div class="highlight highlight-source-shell"><pre>git clone https://github.com/coenraadhuman/SqueezeAudioDIY.git
+<span class="pl-c1">cd</span> SqueezeAudioDIY
+./setup.sh</pre></div>
+
+<h2>
+<a id="to-access-setup-after-installation" class="anchor" href="#to-access-setup-after-installation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>To Access Setup After Installation:</h2>
+
+<div class="highlight highlight-source-shell"><pre>sadiy_setup</pre></div>
+
+<h2>
+<a id="features" class="anchor" href="#features" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Features:</h2>
+
+<ul>
+<li>
+<p>Installers:</p>
+
+<ul>
+<li>Squeezelite v1.8.5-802</li>
+<li>Latest version of Squeezelite</li>
+<li>Stable Logitech Media Server v7.7.5</li>
+<li>Latest nightly Logitech Media Server v7.9.x</li>
+</ul>
+</li>
+<li>
+<p>Squeezelite audio device:</p>
+
+<ul>
+<li>View audio devices in detail</li>
+<li>Change the default audio device</li>
+</ul>
+</li>
+<li>
+<p>Squeezelite options:</p>
+
+<ul>
+<li>View Squeezelite settings</li>
+<li>Set name of the Squeezelite player</li>
+<li>Set extra arguments to Squeezelite</li>
+<li>Deactivate extra arguments in configuration file</li>
+<li>Point Squeezelite to your Server via IPv4</li>
+<li>Deactivate custom server IPv4 address in configuration file</li>
+</ul>
+</li>
+<li>
+<p>View logs</p>
+
+<ul>
+<li>Installer logs</li>
+<li>Squeezelite watch log (when listening)</li>
+<li>Squeezelite static log</li>
+</ul>
+</li>
+<li>
+<p>Fixes for I2S use:</p>
+
+<ul>
+<li>Armbian - Orange Pi Single Board Computers</li>
+<li>Raspbian - Raspberry Pi Singe Board Computers</li>
+<li>Raspbian - Hifiberry Products</li>
+</ul>
+</li>
+</ul>
+
+<h2>
+<a id="notes" class="anchor" href="#notes" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Notes:</h2>
+
+<ul>
+<li>Logitech Media Server v7.7.5 does not work on Ubuntu 16.04+</li>
+</ul>
+
+<h2>
+<a id="resources" class="anchor" href="#resources" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Resources:</h2>
+
+<ul>
+<li>Squeezelite is based on the project of Ralph Irving here at github <a href="https://github.com/ralph-irving/squeezelite.git">https://github.com/ralph-irving/squeezelite.git</a>
+</li>
+<li>Squeezebox stable v7.7.5 (Released 27-Nov-2014) based on the stable build available at <a href="http://downloads.slimdevices.com/LogitechMediaServer_v7.7.5/">http://downloads.slimdevices.com/LogitechMediaServer_v7.7.5/</a>
+</li>
+<li>Sqeezebox nightly v7.9.x is based on the nightly build available at <a href="http://downloads.slimdevices.com/nightly/?ver=7.9">http://downloads.slimdevices.com/nightly/?ver=7.9</a>
+</li>
+</ul>
+        </section>
+
+        <aside id="sidebar">
+          <a href="https://github.com/coenraadhuman/SqueezeAudioDIY/zipball/master" class="button">
+            <small>Download</small>
+            .zip file
+          </a>
+          <a href="https://github.com/coenraadhuman/SqueezeAudioDIY/tarball/master" class="button">
+            <small>Download</small>
+            .tar.gz file
+          </a>
+
+          <p class="repo-owner"><a href="https://github.com/coenraadhuman/SqueezeAudioDIY"></a> is maintained by <a href="https://github.com/coenraadhuman">coenraadhuman</a>.</p>
+
+          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
+      </div>
+    </div>
+
+  
+  </body>
+</html>
