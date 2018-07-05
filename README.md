@@ -1,3 +1,7 @@
+Please take note that development has moved to Gitlab, this repository will be removed on 2018-12-01.
+
+https://gitlab.com/coenraadhuman/SqueezeAudioDIY
+
 SqueezeAudioDIY 1.5
 ===================
 These are terminal based utilities to install and manage Squeezelite, Logitech Media Server.
