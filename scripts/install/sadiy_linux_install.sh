@@ -87,7 +87,7 @@ fi
 #INSTALL REQUIRED LIBRARIES
 #------------------------------------
 apt-get update
-apt-get install -y wget xterm unzip ffmpeg libsoxr-dev libasound2-dev libflac-dev libmad0-dev libvorbis-dev libfaad-dev libmpg123-dev liblircclient-dev libncurses5-dev build-essential
+apt-get install -y git wget xterm unzip ffmpeg libsoxr-dev libasound2-dev libflac-dev libmad0-dev libvorbis-dev libfaad-dev libmpg123-dev liblircclient-dev libncurses5-dev build-essential
 
 #------------------------------------
 #INSTALL SQUEEZELITE
